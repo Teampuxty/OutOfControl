@@ -30,7 +30,7 @@ function draw() {
     X = X + random(90,100)
   }
   if (dist(mouseX,Y,X,Y)<1){
-    if (Y =<flr+scl){
+    if (Y == flr+scl){
       Y = 50
       Sta = true
     }
