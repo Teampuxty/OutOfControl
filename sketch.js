@@ -27,7 +27,7 @@ function draw() {
     Y = Y+Grav
   }
   if (dist(mouseX,Y,X,Y)<=100){
-    X = X + random(0,20)
+    X = X + random(90,100)
   }
   if (dist(mouseX,Y,X,Y)<1){
     Y = 50
